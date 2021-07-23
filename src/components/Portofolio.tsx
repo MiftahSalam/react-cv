@@ -1,5 +1,4 @@
 import React, { ReactElement } from 'react';
-// import FsLightbox from 'fslightbox-react';
 import * as basicLightbox from 'basiclightbox';
 
 import { 
@@ -19,7 +18,6 @@ type PFStateType = {
 
 class Portofolio extends React.Component<PFPropType, PFStateType> {
     private name?: string;
-    // private modals: basicLightbox.BasicLightBox[] = [];
 
     constructor(props: PFPropType) {
         super(props);
@@ -47,6 +45,7 @@ class Portofolio extends React.Component<PFPropType, PFStateType> {
                         <div className="modal-popup__desc">
                             <h5>{item.title}</h5>
                             <p>{item.description}</p>
+                            <p style={{ marginBottom: 10 }}><strong>Keyword</strong></p>
                             <ul>
                                 {item && item.category?.map((cat) => (
                                     <li>{cat}</li>
@@ -97,7 +96,20 @@ class Portofolio extends React.Component<PFPropType, PFStateType> {
     render() {
         return (
             <section id="#portofolio" className="s-portfolio target-section">
-                <div className="row s-portfolio__header">
+                <div className="row s-portfolio__header">                {/* <div id="modal-01" hidden>
+                    <div className="modal-popup">
+                        <img src={pfItemDetaildata[0].img} alt="" />
+                        <div className="modal-popup__desc">
+                            <h5>Tes</h5>
+                            <p>sfgdfgdfg</p>
+                            <ul className="modal-popup__cat">
+                                <li>cat</li>
+                            </ul>
+                        </div>
+                        <a href="#modul" className="modal-popup__details">Project Link</a>
+                    </div>
+                </div> */}
+
                     <div className="column large-12">
                         <h3>A Few Of My Latest Creation</h3>
                     </div>
@@ -110,7 +122,6 @@ class Portofolio extends React.Component<PFPropType, PFStateType> {
                                 className="folio-item__thumb"
                                 id={`link-${item.href}`} 
                                 key={item.href}
-                                // onClick={this.pfLinkClicked} 
                             >
                                 <img 
                                     src={item.mainImgSrc}
@@ -121,32 +132,7 @@ class Portofolio extends React.Component<PFPropType, PFStateType> {
                         </div>
                     ))}
                 </div>
-                {/* {pfItemDetaildata.map(item => this.popup(item))} */}
-                {/* <button onClick={() => this.setState({ toggler: !this.state.toggler })}>
-                        Toggle Lightbox
-                </button>
-                <FsLightbox 
-                    toggler={this.state.toggler}
-                    sources={[ pfItemDetaildata[0].img, pfItemDetaildata[0].img]}
-                    customSources={[
-                        <div style={{ width: '200px', height: '100px'}}>
-                            <h3>I'm a completely custom source</h3>
-                        </div>
-                    ]}
-                /> */}
-                <div id="modal-01" hidden>
-                    <div className="modal-popup">
-                        <img src={pfItemDetaildata[0].img} alt="" />
-                        <div className="modal-popup__desc">
-                            <h5>Tes</h5>
-                            <p>sfgdfgdfg</p>
-                            <ul className="modal-popup__cat">
-                                <li>cat</li>
-                            </ul>
-                        </div>
-                        <a href="#modul" className="modal-popup__details">Project Link</a>
-                    </div>
-                </div>
+                {pfItemDetaildata.map(item => this.popup(item))}
             </section>
         )
     }

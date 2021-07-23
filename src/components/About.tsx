@@ -1,6 +1,6 @@
 import React from "react";
 
-import avatarImage from '../assets/images/avatars/user-06.jpg';
+import avatarImage from '../assets/images/avatars/549736_452815301419013_1076128621_n.jpg';
 
 class About extends React.Component {
     render() {
@@ -43,7 +43,6 @@ class About extends React.Component {
                                 <p>
                                     Miftah Salam<br />
                                     MEL A11, Cilame, West Bandung<br />
-                                    <a href="tel:+123456789">+123 456 789</a><br />
                                     <a href="mailto:#0">salam.miftah@gmail.com</a>
                                 </p>
                             </div>

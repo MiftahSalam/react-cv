@@ -8,19 +8,18 @@ class Hero extends React.Component {
                 <div className="row s-hero__content">
                     <div className="column">
                         <div className="s-hero__content-about">
-                            <h1>I'm Miftah Salam</h1>
+                        <h1>Hello</h1>
+                        <h1>I'm Miftah Salam</h1>
                             <h3>
                                 I'm an Indonesia <span>software developer</span> and <span>IT anthusiast</span>.
                                 Let's <a className="smoothscroll" href="#about">start scrolling </a>and learn more  
                                 <a className="smoothscroll" href="#about"> about me</a>.
                             </h3>
                             <div className="s-hero__content-social">
-                                <a href="#0"><i className="fab fa-facebook-square" aria-hidden="true"></i></a>
-                                <a href="#0"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#0"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#0"><i className="fab fa-dribbble" aria-hidden="true"></i></a>
-                                <a href="#0"><i className="fab fa-behance" aria-hidden="true"></i></a>
-                                <a href="#0"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.upwork.com/freelancers/~01c37a376d20b2792b" target="_blank" rel="noreferrer"><i>Up</i></a>
+                                <a href="https://github.com/MiftahSalam" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/miftah-salam-36aa5b25" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                                <a href="https://fb.com/miftah.salam.9" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
                             </div>
                         </div>
                     </div>
