@@ -9,7 +9,7 @@ import {
 class Resume extends React.Component {
     render() {
         return (
-            <section id="#resume" className="s-resume target-section">
+            <section id="resume" className="s-resume target-section">
                 <div className="row s-resume__section">
                     <div className="column large-3 tab-12">
                         <h3 className="section-header-allcaps">Career</h3>

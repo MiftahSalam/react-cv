@@ -47,7 +47,7 @@ class About extends React.Component {
                                 </p>
                             </div>
                             <div className="column w-1000-stack">
-                                <a href="#0" className="btn btn--download">
+                                <a href={require('../assets/My_CV.pdf')} download="My_CV.pdf" className="btn btn--download">
                                     <svg 
                                         xmlns="http://www.w3.org/2000/svg" 
                                         width="24" 

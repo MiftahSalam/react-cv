@@ -95,7 +95,7 @@ class Portofolio extends React.Component<PFPropType, PFStateType> {
     }
     render() {
         return (
-            <section id="#portofolio" className="s-portfolio target-section">
+            <section id="portofolio" className="s-portfolio target-section">
                 <div className="row s-portfolio__header">                {/* <div id="modal-01" hidden>
                     <div className="modal-popup">
                         <img src={pfItemDetaildata[0].img} alt="" />
