@@ -4062,6 +4062,9 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .modal-popup {
     max-width: 680px;
+    max-height: 580px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: white;
     font-size: calc(var(--text-size) * 0.9444);
     line-height: 1.647;
