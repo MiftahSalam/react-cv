@@ -1,7 +1,6 @@
 import React from "react";
 
 import avatarImage from '../assets/images/avatars/549736_452815301419013_1076128621_n.jpg';
-// const pdfCV  = require(process.env.PUBLIC_URL+"/My_CV.pdf");
 
 class About extends React.Component {
     render() {
@@ -48,7 +47,7 @@ class About extends React.Component {
                                 </p>
                             </div>
                             <div className="column w-1000-stack">
-                                <a href="/assets/My_CV.pdf" download="My_CV.pdf" className="btn btn--download">
+                                <a href="/My_CV.pdf" download="My_CV.pdf" className="btn btn--download">
                                     <svg 
                                         xmlns="http://www.w3.org/2000/svg" 
                                         width="24" 
