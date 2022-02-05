@@ -22,19 +22,43 @@ export type resumeSkillData = {
 const resumeSkillItems: resumeSkillData = {
     skillSet: [
         {
+            skill: "Qt SDK",
+            percentage: 80,
+        },
+        {
+            skill: "Nestjs",
+            percentage: 50,
+        },
+        {
+            skill: "Expressjs",
+            percentage: 40,
+        },
+        {
+            skill: "Angular",
+            percentage: 30,
+        },
+        {
+            skill: "PostgreSql",
+            percentage: 50,
+        },
+        {
+            skill: "Linux",
+            percentage: 60,
+        },
+        {
             skill: "C",
             percentage: 70,
         },
         {
             skill: "C++",
-            percentage: 70,
-        },
-        {
-            skill: "Qt SDK",
-            percentage: 80,
+            percentage: 50,
         },
         {
             skill: "Javascript",
+            percentage: 40,
+        },
+        {
+            skill: "Typescript",
             percentage: 40,
         },
         {
@@ -43,15 +67,7 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "Python",
-            percentage: 50,
-        },
-        {
-            skill: "Django",
-            percentage: 50,
-        },
-        {
-            skill: "Linux",
-            percentage: 60,
+            percentage: 40,
         },
     ]
 }
