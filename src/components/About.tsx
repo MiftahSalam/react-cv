@@ -30,7 +30,7 @@ class About extends React.Component {
                             <br />
                             Besides desktop software development, I also love to do web development, especially on the backend. 
                             I have not created an actual project in this area, 
-                            but I have enough skill in backend stacks such as node.js (Nestjs, Expressjs) and Angular for frontend.
+                            but I have enough skill in backend stacks such as Go (Gin), node.js (Nestjs, Expressjs) and Angular for frontend.
                             <br />
                             <br />
                             I am a fast learner, honest, passionate about IT-related jobs, 
