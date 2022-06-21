@@ -26,6 +26,10 @@ const resumeSkillItems: resumeSkillData = {
             percentage: 80,
         },
         {
+            skill: "Go-Gin",
+            percentage: 30,
+        },
+        {
             skill: "Nestjs",
             percentage: 50,
         },
@@ -63,10 +67,6 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "HTML",
-            percentage: 40,
-        },
-        {
-            skill: "Python",
             percentage: 40,
         },
     ]
