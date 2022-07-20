@@ -89,7 +89,7 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
     {
         refId: "modal-05",
         hidden: false,
-        img: pf_img5,
+        img: pf_img6,
         title: "Angular-Gin Blog Apps",
         link: "#",
         description: `This is a my personal project in learning Angular and Golang Gin app development, 
