@@ -14,6 +14,9 @@ import pf_img4_set2 from '../assets/images/portfolio/SBS2.png';
 import pf_img5 from '../assets/images/portfolio/CariRumah1.jpeg';
 import pf_img5_set2 from '../assets/images/portfolio/CariRumah1.jpeg';
 
+import pf_img6 from '../assets/images/portfolio/aangular-gin-blog.jpeg';
+import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.jpeg';
+
 // import pf_img6 from '../assets/images/portfolio/SBS2.png';
 // import pf_img6_set2 from '../assets/images/portfolio/SBS2.png';
 
@@ -83,6 +86,17 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         For mobile developement, I use React Native. This project not finished yet and need more improvement.`,
         category: ["Mobile Apps","API Backend","Python","Django","Selenium","React Native"],
     },
+    {
+        refId: "modal-05",
+        hidden: false,
+        img: pf_img5,
+        title: "Angular-Gin Blog Apps",
+        link: "#",
+        description: `This is a my personal project in learning Angular and Golang Gin app development, 
+        a small and simple API blog developed to comply API spec from the RealWorld (https://github.com/gothinkster/realworld).
+        Feature includes: CRUD, Authentication (JWT), Routing, Pagination, Input Validation, Testing.`,
+        category: ["API Backend","Angular","Go-Gin"],
+    },
 ];
 
 const pfItemData: PortoFolioItemData[] = [
@@ -116,6 +130,14 @@ const pfItemData: PortoFolioItemData[] = [
         imgSetSrc: [
             pf_img5,
             pf_img5_set2,
+        ],
+    },
+    {
+        href: "modal-05",
+        mainImgSrc: pf_img6,
+        imgSetSrc: [
+            pf_img6,
+            pf_img6_set2,
         ],
     },
 ];
