@@ -14,8 +14,8 @@ import pf_img4_set2 from '../assets/images/portfolio/SBS2.png';
 import pf_img5 from '../assets/images/portfolio/CariRumah1.jpeg';
 import pf_img5_set2 from '../assets/images/portfolio/CariRumah1.jpeg';
 
-import pf_img6 from '../assets/images/portfolio/aangular-gin-blog.jpeg';
-import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.jpeg';
+import pf_img6 from '../assets/images/portfolio/aangular-gin-blog.png';
+import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.png';
 
 // import pf_img6 from '../assets/images/portfolio/SBS2.png';
 // import pf_img6_set2 from '../assets/images/portfolio/SBS2.png';
