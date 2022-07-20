@@ -91,7 +91,7 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         hidden: false,
         img: pf_img6,
         title: "Angular-Gin Blog Apps",
-        link: "#",
+        link: "https://angular-gin-blog.netlify.app/home",
         description: `This is a my personal project in learning Angular and Golang Gin app development, 
         a small and simple API blog developed to comply API spec from the RealWorld (https://github.com/gothinkster/realworld).
         Feature includes: CRUD, Authentication (JWT), Routing, Pagination, Input Validation, Testing.`,
