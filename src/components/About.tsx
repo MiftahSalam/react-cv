@@ -28,9 +28,9 @@ class About extends React.Component {
                             I not only know how to make an application work, but also know how to make it work fast and smoothly.
                             <br />
                             <br />
-                            Besides desktop software development, I also love to do web development, especially on the backend. 
-                            I have not created an actual project in this area, 
-                            but I have enough skill in backend stacks such as Go (Gin), node.js (Nestjs, Expressjs) and Angular for frontend.
+                            Besides desktop software development, I also love to do web development, especially on the backend.
+                            I am a Go freelancer on company that currently has project to build bank transaction platform. I am part of a tim that create microsevices using Echo library (Go).
+                            Beside that, I have enough skill in backend stacks such as node.js (Nestjs, Expressjs) and Angular for frontend. I have some personal project using one or more of those stacks.
                             <br />
                             <br />
                             I am a fast learner, honest, passionate about IT-related jobs, 
@@ -47,7 +47,7 @@ class About extends React.Component {
                                 </p>
                             </div>
                             <div className="column w-1000-stack">
-                                <a href="/My_CV3.pdf" download="Miftah_CV.pdf" className="btn btn--download">
+                                <a href="/My_CV4.pdf" download="Miftah_CV.pdf" className="btn btn--download">
                                     <svg 
                                         xmlns="http://www.w3.org/2000/svg" 
                                         width="24" 
