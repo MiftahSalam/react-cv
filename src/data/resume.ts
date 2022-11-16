@@ -26,16 +26,16 @@ const resumeSkillItems: resumeSkillData = {
             percentage: 80,
         },
         {
-            skill: "Go-Gin",
-            percentage: 30,
+            skill: "Go",
+            percentage: 40,
         },
         {
             skill: "Nestjs",
-            percentage: 50,
+            percentage: 40,
         },
         {
             skill: "Expressjs",
-            percentage: 40,
+            percentage: 30,
         },
         {
             skill: "Angular",
@@ -59,15 +59,15 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "Javascript",
-            percentage: 40,
+            percentage: 30,
         },
         {
             skill: "Typescript",
-            percentage: 40,
+            percentage: 30,
         },
         {
             skill: "HTML",
-            percentage: 40,
+            percentage: 30,
         },
     ]
 }
@@ -79,6 +79,14 @@ const resumeEducationItems: resumeEducationData[] = [
     }
 ]
 const resumeCareerItems: resumeCareerData[] = [
+    {
+        companyName: "Ursabyte",
+        position: "Go Programmer",
+        duration: "2022 - Present",
+        jobDescription: `Job description including perform coding duties within a specified timeframe and task given on Jira, 
+        collaborate with other developers, tech leader and QA tim to produce software designs, transform software designs and specifications into functioning code,
+        perform bug-fixing, perform upgrades to make software and systems more clean and efficient.
+    },
     {
         companyName: "SKM",
         position: "C/C++ Programmer",
