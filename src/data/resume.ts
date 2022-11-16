@@ -85,7 +85,7 @@ const resumeCareerItems: resumeCareerData[] = [
         duration: "2022 - Present",
         jobDescription: `Job description including perform coding duties within a specified timeframe and task given on Jira, 
         collaborate with other developers, tech leader and QA tim to produce software designs, transform software designs and specifications into functioning code,
-        perform bug-fixing, perform upgrades to make software and systems more clean and efficient.
+        perform bug-fixing, perform upgrades to make software and systems more clean and efficient.`,
     },
     {
         companyName: "SKM",
