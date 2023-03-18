@@ -107,7 +107,7 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         A small and simple online shoe shop develop with different stacts version (MERN, REST, Graphql, Angular, Go, Postgres).
         Feature includes: Product browsing and searching, Review product (rating, comment), Cart product, Order product, Order payment (paypal), Order shipping,
         User management (Register, Login, Profile), Authentication (JWT), Pagination.`,
-        category: ["API Backend","Graphql","Angular","Go","MERN, Postgresql],
+        category: ["API Backend","Graphql","Angular","Go","MERN", "Postgresql"],
     },
 ];
 
