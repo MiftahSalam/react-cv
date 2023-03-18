@@ -19,6 +19,7 @@ import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.png';
 
 import pf_img7 from '../assets/images/portfolio/shoeshop-home.png';
 import pf_img7_set2 from '../assets/images/portfolio/shoeshop-home.png';
+import pf_img7_set3 from '../assets/images/portfolio/shoeshop-cart.png';
 
 export type PortoFolioDetailData = {
     refId: string;
@@ -158,6 +159,7 @@ const pfItemData: PortoFolioItemData[] = [
         imgSetSrc: [
             pf_img7,
             pf_img7_set2,
+            pf_img7_set3,
         ],
     },
 ];
