@@ -101,8 +101,8 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         refId: "modal-06",
         hidden: false,
         img: pf_img7,
-        title: "Shoesop Apps",
-        link: "#",
+        title: "Shoeshop Apps",
+        link: "https://github.com/MiftahSalam/shoeshop-angular-client",
         description: `This is a my personal project in learning Angular, React, Go, Express app development, 
         A small and simple online shoe shop develop with different stacts version (MERN, REST, Graphql, Angular, Go, Postgres).
         Feature includes: Product browsing and searching, Review product (rating, comment), Cart product, Order product, Order payment (paypal), Order shipping,
@@ -153,7 +153,7 @@ const pfItemData: PortoFolioItemData[] = [
         ],
     },
     {
-        href: "modal-07",
+        href: "modal-06",
         mainImgSrc: pf_img7,
         imgSetSrc: [
             pf_img7,
