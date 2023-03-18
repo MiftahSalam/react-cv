@@ -17,8 +17,8 @@ import pf_img5_set2 from '../assets/images/portfolio/CariRumah1.jpeg';
 import pf_img6 from '../assets/images/portfolio/aangular-gin-blog.png';
 import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.png';
 
-// import pf_img6 from '../assets/images/portfolio/SBS2.png';
-// import pf_img6_set2 from '../assets/images/portfolio/SBS2.png';
+import pf_img7 from '../assets/images/portfolio/shoeshop-home.png';
+import pf_img7_set2 from '../assets/images/portfolio/shoeshop-home.png';
 
 export type PortoFolioDetailData = {
     refId: string;
@@ -97,6 +97,18 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         Feature includes: CRUD, Authentication (JWT), Routing, Pagination, Input Validation, Testing.`,
         category: ["API Backend","Angular","Go-Gin"],
     },
+    {
+        refId: "modal-06",
+        hidden: false,
+        img: pf_img7,
+        title: "Shoesop Apps",
+        link: "#",
+        description: `This is a my personal project in learning Angular, React, Go, Express app development, 
+        A small and simple online shoe shop develop with different stacts version (MERN, REST, Graphql, Angular, Go, Postgres).
+        Feature includes: Product browsing and searching, Review product (rating, comment), Cart product, Order product, Order payment (paypal), Order shipping,
+        User management (Register, Login, Profile), Authentication (JWT), Pagination.`,
+        category: ["API Backend","Graphql","Angular","Go","MERN, Postgresql],
+    },
 ];
 
 const pfItemData: PortoFolioItemData[] = [
@@ -138,6 +150,14 @@ const pfItemData: PortoFolioItemData[] = [
         imgSetSrc: [
             pf_img6,
             pf_img6_set2,
+        ],
+    },
+    {
+        href: "modal-07",
+        mainImgSrc: pf_img7,
+        imgSetSrc: [
+            pf_img7,
+            pf_img7_set2,
         ],
     },
 ];
