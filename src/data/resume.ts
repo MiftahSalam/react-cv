@@ -31,7 +31,7 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "Nestjs",
-            percentage: 40,
+            percentage: 30,
         },
         {
             skill: "Expressjs",
@@ -44,6 +44,10 @@ const resumeSkillItems: resumeSkillData = {
         {
             skill: "PostgreSql",
             percentage: 50,
+        },
+        {
+            skill: "Redis",
+            percentage: 60,
         },
         {
             skill: "Linux",
@@ -66,8 +70,8 @@ const resumeSkillItems: resumeSkillData = {
             percentage: 30,
         },
         {
-            skill: "HTML",
-            percentage: 30,
+            skill: "Docker",
+            percentage: 20,
         },
     ]
 }
@@ -81,7 +85,7 @@ const resumeEducationItems: resumeEducationData[] = [
 const resumeCareerItems: resumeCareerData[] = [
     {
         companyName: "Ursabyte",
-        position: "Go Programmer",
+        position: " (Freelance) Go Programmer",
         duration: "2022 - Present",
         jobDescription: `Job description including perform coding duties within a specified timeframe and task given on Jira, 
         collaborate with other developers, tech leader and QA tim to produce software designs, transform software designs and specifications into functioning code,
@@ -101,7 +105,7 @@ const resumeCareerItems: resumeCareerData[] = [
     {
         companyName: "SKM",
         position: "C/C++ Senior Programmer and System Designer",
-        duration: "2015 - Present",
+        duration: "2015 - 2023",
         jobDescription: `Job description including determine development strategy,
         managing the development team, assisting with team resources,
         managing the development, deployment, and integration of software solutions,
@@ -110,7 +114,7 @@ const resumeCareerItems: resumeCareerData[] = [
     },
     {
         companyName: "RTI",
-        position: "C/C++ Senior Programmer and System Designer",
+        position: " (Freelance) C/C++ Senior Programmer and System Designer",
         duration: "2015 - Present",
         jobDescription: `Project based work as freelancer to develop Radar Air Surveilance System. 
         Job description including design Radar software architect, managing the development team, 
@@ -120,8 +124,8 @@ const resumeCareerItems: resumeCareerData[] = [
     },
     {
         companyName: "ITB",
-        position: "C/C++ Senior Programmer and System Designer",
-        duration: "2016, 2020 - Present",
+        position: " (Freelance) C/C++ Senior Programmer and System Designer",
+        duration: "2016, 2020 - 2022",
         jobDescription: `Project based work as freelancer to develop Ground Surveilance Radar System. 
         Job description including design Radar software architect, managing the development team, 
         managing the development, deployment, and integration of Radar system,
@@ -134,7 +138,7 @@ const resumeCareerItems: resumeCareerData[] = [
         duration: "2017 - Present",
         jobDescription: `Rarely spend much time on this freelance platform. 
         Currently only available to accept small, part time job as Desktop and Web Backend Developer.
-        Available stacks are C/C++ (Qt SDK), Python (Django, Selenium), Javascript (Nodejs, Express, Reactjs)
+        Available stacks are C/C++ (Qt SDK), Go (Echo, Gin), Javascript (Nodejs, Express, Reactjs)
         `,
     },
 ]
