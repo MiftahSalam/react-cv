@@ -23,15 +23,19 @@ const resumeSkillItems: resumeSkillData = {
     skillSet: [
         {
             skill: "Qt SDK",
-            percentage: 80,
+            percentage: 70,
         },
         {
             skill: "Go",
-            percentage: 40,
+            percentage: 50,
         },
         {
             skill: "Nestjs",
             percentage: 30,
+        },
+        {
+            skill: "Springboot",
+            percentage: 20,
         },
         {
             skill: "Expressjs",
@@ -70,6 +74,10 @@ const resumeSkillItems: resumeSkillData = {
             percentage: 30,
         },
         {
+            skill: "Java",
+            percentage: 30,
+        },
+        {
             skill: "Docker",
             percentage: 20,
         },
@@ -86,7 +94,7 @@ const resumeCareerItems: resumeCareerData[] = [
     {
         companyName: "Ursabyte",
         position: " (Freelance) Go Programmer",
-        duration: "2022 - Present",
+        duration: "2022 - 2023",
         jobDescription: `Job description including perform coding duties within a specified timeframe and task given on Jira, 
         collaborate with other developers, tech leader and QA tim to produce software designs, transform software designs and specifications into functioning code,
         perform bug-fixing, perform upgrades to make software and systems more clean and efficient.`,
