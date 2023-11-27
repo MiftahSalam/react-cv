@@ -27,15 +27,15 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "Go",
-            percentage: 50,
+            percentage: 70,
         },
         {
             skill: "Nestjs",
-            percentage: 30,
+            percentage: 40,
         },
         {
             skill: "Springboot",
-            percentage: 20,
+            percentage: 30,
         },
         {
             skill: "Expressjs",
@@ -47,15 +47,15 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "PostgreSql",
-            percentage: 50,
+            percentage: 60,
         },
         {
             skill: "Redis",
-            percentage: 60,
+            percentage: 70,
         },
         {
             skill: "Linux",
-            percentage: 60,
+            percentage: 70,
         },
         {
             skill: "C",
@@ -71,15 +71,23 @@ const resumeSkillItems: resumeSkillData = {
         },
         {
             skill: "Typescript",
-            percentage: 30,
+            percentage: 40,
         },
         {
-            skill: "Java",
-            percentage: 30,
+            skill: "Springboot",
+            percentage: 40,
         },
         {
             skill: "Docker",
-            percentage: 20,
+            percentage: 50,
+        },
+        {
+            skill: "Kubernetes",
+            percentage: 40,
+        },
+        {
+            skill: "Rabbitmq",
+            percentage: 40,
         },
     ]
 }
