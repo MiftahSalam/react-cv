@@ -74,7 +74,7 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         Eqquipped with sufficient features required by surveyors.`,
         category: ["Echosounder","Desktop","C++","Qt","Visualization","Sensor"],
     },
-
+    {
         refId: "modal-05",
         hidden: false,
         img: pf_img6,
