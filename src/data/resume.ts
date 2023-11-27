@@ -121,7 +121,7 @@ const resumeCareerItems: resumeCareerData[] = [
     {
         companyName: "SKM",
         position: "C/C++ Senior Programmer and System Designer",
-        duration: "2015 - 2023",
+        duration: "2015 - present",
         jobDescription: `Job description including determine development strategy,
         managing the development team, assisting with team resources,
         managing the development, deployment, and integration of software solutions,
@@ -131,7 +131,7 @@ const resumeCareerItems: resumeCareerData[] = [
     {
         companyName: "RTI",
         position: " (Freelance) C/C++ Senior Programmer and System Designer",
-        duration: "2015 - Present",
+        duration: "2015 - 2022",
         jobDescription: `Project based work as freelancer to develop Radar Air Surveilance System. 
         Job description including design Radar software architect, managing the development team, 
         managing the development, deployment, and integration of Radar system,
