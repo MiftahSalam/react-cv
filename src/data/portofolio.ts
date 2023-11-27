@@ -11,8 +11,8 @@ import pf_img3_set2 from '../assets/images/portfolio/RTI1.png';
 import pf_img4 from '../assets/images/portfolio/SBS2.png';
 import pf_img4_set2 from '../assets/images/portfolio/SBS2.png';
 
-import pf_img5 from '../assets/images/portfolio/CariRumah1.jpeg';
-import pf_img5_set2 from '../assets/images/portfolio/CariRumah1.jpeg';
+// import pf_img5 from '../assets/images/portfolio/CariRumah1.jpeg';
+// import pf_img5_set2 from '../assets/images/portfolio/CariRumah1.jpeg';
 
 import pf_img6 from '../assets/images/portfolio/aangular-gin-blog.png';
 import pf_img6_set2 from '../assets/images/portfolio/aangular-gin-blog1.png';
@@ -74,20 +74,7 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         Eqquipped with sufficient features required by surveyors.`,
         category: ["Echosounder","Desktop","C++","Qt","Visualization","Sensor"],
     },
-    {
-        refId: "modal-04",
-        hidden: false,
-        img: pf_img5,
-        title: "CariRumah Apps",
-        link: "#",
-        description: `This is a my personal project for learning backend and mobile app development.
-        Main purpose of this app is to search available property based on user preference such as location,
-        price, property type, etc. For backend, I use python Django framework to serve API 
-        and python Selenium Webdriver to collect/scrape data from another property site.
-        For mobile developement, I use React Native. This project not finished yet and need more improvement.`,
-        category: ["Mobile Apps","API Backend","Python","Django","Selenium","React Native"],
-    },
-    {
+
         refId: "modal-05",
         hidden: false,
         img: pf_img6,
@@ -135,14 +122,6 @@ const pfItemData: PortoFolioItemData[] = [
         imgSetSrc: [
             pf_img4,
             pf_img4_set2,
-        ],
-    },
-    {
-        href: "modal-04",
-        mainImgSrc: pf_img5,
-        imgSetSrc: [
-            pf_img5,
-            pf_img5_set2,
         ],
     },
     {
