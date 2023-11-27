@@ -13,13 +13,13 @@ class About extends React.Component {
                     <div className="column large-9 tab-12 s-about__content">
                         <h3>About Me</h3>
                         <p>
-                            I have more than five years of experience in desktop software development and embedded software development. 
+                            I have more than 10 years of experience in desktop software development. 
                             My current desktop software development areas are data processing, UI application, 
                             inter-computer communication, and system control. 
                             I have experience in creating big and complex C++ base projects.
                             <br />
                             <br />
-                            For desktop, mostly I used Qt SDK for build application with Linux platform and 
+                            For desktop, mostly I used VS code and Qt SDK for build application with Linux platform and 
                             PostgreSQL for database handling. I do not mind if I use another IDE and platform, 
                             but these are my favorite.
                             <br />
@@ -30,7 +30,10 @@ class About extends React.Component {
                             <br />
                             Besides desktop software development, I also love to do web development, especially on the backend.
                             I was a Go freelancer on company that currently has project to build bank transaction platform. I am part of a tim that create microsevices using Echo library (Go).
-                            Beside that, I have enough skill in backend stacks such as node.js (Nestjs, Expressjs), Springboot and Angular for frontend. I have some personal project using one or more of those stacks.
+                            Beside that, I have enough skill in backend stacks such as node.js (Nestjs, Expressjs), Springboot and Angular for frontend. I have some project using one or more of those stacks.
+                            <br />
+                            <br />
+                            Recently, I also learn deploying applications using docker and kubenetes with microk8 as cluster manager.
                             <br />
                             <br />
                             I am a fast learner, honest, passionate about IT-related jobs, 
