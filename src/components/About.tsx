@@ -50,7 +50,7 @@ class About extends React.Component {
                                 </p>
                             </div>
                             <div className="column w-1000-stack">
-                                <a href="/My_CV8.pdf" download="Miftah_CV.pdf" className="btn btn--download">
+                                <a href="/Resume_Miftah_June_2025.pdf" download="Miftah_CV.pdf" className="btn btn--download">
                                     <svg 
                                         xmlns="http://www.w3.org/2000/svg" 
                                         width="24" 
