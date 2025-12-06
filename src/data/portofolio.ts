@@ -21,6 +21,9 @@ import pf_img7 from '../assets/images/portfolio/shoeshop-home.png';
 import pf_img7_set2 from '../assets/images/portfolio/shoeshop-home.png';
 import pf_img7_set3 from '../assets/images/portfolio/shoeshop-cart.png';
 
+import pf_img8 from '../assets/images/portfolio/face-recognized.png';
+import pf_img8_set2 from '../assets/images/portfolio/face-not-recognized.png';
+
 export type PortoFolioDetailData = {
     refId: string;
     hidden: boolean;
@@ -97,6 +100,18 @@ const pfItemDetaildata: PortoFolioDetailData[] = [
         User management (Register, Login, Profile), Authentication (JWT), Pagination.`,
         category: ["API Backend","Graphql","Angular","Go","MERN", "Postgresql"],
     },
+    {
+        refId: "modal-07",
+        hidden: false,
+        img: pf_img8,
+        title: "Face Recognition System",
+        link: "#",
+        description: `This is a project for Indonesian Army, Military Regional Command Jakarta (Kodam Jaya). 
+        This system aim to recognize citizen as part of security system for demostration monitoring in field.
+        This system will process video input from cctv steaming that put in some point.
+        This system use heavly on OpenCV library to detect and recognixe face and desktop based UI.`,
+        category: ["API Backend","JavaFX","Go","C++", "Postgresql", "OpenCV", "Image Processing"],
+    },
 ];
 
 const pfItemData: PortoFolioItemData[] = [
@@ -139,6 +154,14 @@ const pfItemData: PortoFolioItemData[] = [
             pf_img7,
             pf_img7_set2,
             pf_img7_set3,
+        ],
+    },
+    {
+        href: "modal-07",
+        mainImgSrc: pf_img8,
+        imgSetSrc: [
+            pf_img8,
+            pf_img8_set2,
         ],
     },
 ];
